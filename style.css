@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins'!important;
+}
+
+.con {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-tr {
+    background-color: rgba(78, 78, 78, 0.377);
+    backdrop-filter: blur(12px) saturate(300%);
+}
+
+.ulls {
+    background-image: url('image/header2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.ulls::after {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.welcomeText {
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+/* padding */
+
+.p-15 {
+    padding: 10em;
+}
+
+/* padding */
+
+/* width */
+
+.w-70 {
+    width: 70%;
+}
+
+/* width */
+
+/* coloring */
+
+.bg-purple {
+    background-color: rgb(69, 21, 131);
+}
+
+/* coloring */
